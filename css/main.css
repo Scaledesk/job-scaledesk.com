@@ -128,9 +128,10 @@ strong { font-weight: 700; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/bg-hero.jpg) center center no-repeat;
+  background: url(../img/new/banner.jpg)center center no-repeat;
   background-size: cover;
   position: relative;
+  height:100vh;
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: crisp-edges;
@@ -151,9 +152,9 @@ strong { font-weight: 700; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(17, 17, 17, 0.38); }
+.hero-section::before { background: rgba(17, 17, 17, 0.27); }
 
-.welcome-message { padding: 9em 15px 7.5em; }
+.welcome-message { padding: 1.8em 15px 7.5em; }
 
 .welcome-message h1,
 .welcome-message h2 {
@@ -170,7 +171,7 @@ strong { font-weight: 700; }
 .welcome-message h2 { font-size: 20px; }
 
 .btn {
-  padding: 1.25em 3em;
+  padding: 1em 3em;
   color: #000000;
   font-size: 14px!important;
   text-align: center;
@@ -235,8 +236,8 @@ strong { font-weight: 700; }
 }
 
 .hero-section .cta-signup-form {
-  background: #fff;
-  padding: 3em 1.5em;
+  background: rgba(255, 255, 255, 0.33);
+  padding: 1em 1.5em;
   margin-top: 3em;
 }
 
@@ -255,13 +256,14 @@ strong { font-weight: 700; }
 .hero-section .cta-form .form-group i {
   position: absolute;
   left: 16px;
-  bottom: 22px;
+  bottom: 17px;
 }
 
 .hero-section .form-control,
 .hero-section select.form-control {
-  height: 60px;
+  height: 49px;
   padding: 0 1.5em 0 2.5em;
+  line-height: 49px;
 }
 
 .hero-section select.form-control {
@@ -2177,7 +2179,7 @@ color:#6B6B6B;}
 
 .logo-sl-page { padding: 4.5em 0 0; }
 
-.cta-light form { padding: 46px; }
+/*.cta-light form { padding: 46px; }*/
 
 .copyright-terms { padding: 1.5em 0; }
 }
@@ -2561,3 +2563,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+
+  .navbar-default .navbar-nav > li > a{padding:10px 15px;
+}

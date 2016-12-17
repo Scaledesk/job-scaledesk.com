@@ -46,7 +46,7 @@
 
 <!--hero section-->
 
-<header>
+<header class="hero-section">
   
   <!--navigation-->
 
@@ -59,11 +59,11 @@
         <li class="hidden-xs hidden-sm"><a href="#reviews">services</a></li>
         <li class="hidden-xs"><a href="signin.html">feature</a></li>
         <li class="hidden-xs"><a href="signin.html">testimonial</a></li>
-
+<!--
         <li><a href="signup.html"  class="btn btn-nav" style="
     font-weight: 300;border-right:1px solid #000; border-radius: 0px;">Login</a></li>
         <li><a href="signup.html" class="btn btn-nav" style="
-    font-weight: 300;">Register</a></li>
+    font-weight: 300;">Register</a></li>-->
         <li class="hidden-md hidden-lg"><a id="toggle"><i class="fa fa-bars fa-2x"></i><i class="fa fa-times fa-2x"></i></a></li>
       </ul>
     </div>
@@ -88,9 +88,9 @@
   
   <!--mobile navigation end--> 
   
-  <!--welcome message-->
+  <!--carousel comment out message-->
 
-  <div class="user-reviews section-spacing1 bg-banner" id="reviews2">
+  <!--<div class="user-reviews section-spacing1 bg-banner" id="reviews2">
       <div class="row">
         <div class="col-md-12 center-block">
           <div class="reviews-slider owl-carousel owl-theme">
@@ -100,18 +100,45 @@
                 <div class="container">
 
 
-                <div class="col-md-7 col-sm-12 col-md-offset-5">
+                <div class="col-md-4 col-sm-12 col-md-offset-8">
 
-                  <!--review 1-->
+                  &lt;!&ndash;review 1&ndash;&gt;
 
-                    <div class="banner-text">
+                    &lt;!&ndash;<div class="banner-text">
                     <p class="banneer-heading">civil engineering</p>
                     <p class="banneer-heading">company</p>
                     <p class="banneer-heading">the one</p>
 <br>
                     <footer><button class="hollow-btn">Read more</button></footer>
-                    </div>
-                  <!--review 1 end-->
+                    </div>&ndash;&gt;
+
+                    <section class="cta-form cta-light">
+                        <form id="cta-signup-form" class="cta-signup-form">
+                            <h2  class="text-center">Signup for a FREE trial</h2>
+                            <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
+                            <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
+                            <div class="form-group"> <i class="fa fa-user"></i>
+                                <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group"> <i class="fa fa-envelope-o"></i>
+                                <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Email address" required>
+                            </div>
+                            <div class="form-group"> <i class="fa fa-comment-o"></i>
+                                <select name="MMERGE2" class="form-control">
+                                    <option>How did you find us?</option>
+                                    <option>Blog</option>
+                                    <option>Google</option>
+                                    <option>Facebook</option>
+                                    <option>Newsletter</option>
+                                </select>
+                            </div>
+                            <div class="form-btn">
+                                <button type="submit" class="btn">GET STARTED</button>
+                                <p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>
+                            </div>
+                        </form>
+                    </section>
+                  &lt;!&ndash;review 1 end&ndash;&gt;
                 </div>
                 </div>
               </div>
@@ -125,15 +152,15 @@
 
                   <div class="col-md-7 col-sm-12 col-md-offset-5">
 
-                    <!--review 1-->
-        <!--        <br><br><br><br> <br><br>-->
+                    &lt;!&ndash;review 1&ndash;&gt;
+        &lt;!&ndash;        <br><br><br><br> <br><br>&ndash;&gt;
                       <p class="banneer-heading">civil engineering</p>
                       <p class="banneer-heading">company</p>
                       <p class="banneer-heading">the one</p>
 
                       <footer><button class="hollow-btn">Read more</button></footer>
                     </blockquote>
-                    <!--review 1 end-->
+                    &lt;!&ndash;review 1 end&ndash;&gt;
                   </div>
                 </div>
               </div>
@@ -146,9 +173,59 @@
         </div>
       </div>
 
-  </div>
+  </div>-->
   
-  <!--welcome message end--> 
+  <!--welcome message end-->
+
+
+    <section class="container text-center welcome-message">
+        <div class="row">
+            <div class="col-md-11 center-block">
+                <div class="row">
+                    <div class="col-md-7 hidden-xs">
+                        <h1>India's 1st  Infrastructure Manpower Company</h1>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asper.</h2>
+
+                        <footer><button class="hollow-btn">Read more</button></footer>
+                    </div>
+
+                    <!--cta signup form-->
+
+                    <div class="col-md-5 col-sm-12">
+                        <section class="cta-form cta-light">
+                            <form id="cta-signup-form" class="cta-signup-form">
+                                <h2  class="text-center">Signup for a FREE trial</h2>
+                                <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
+                                <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
+                                <div class="form-group"> <i class="fa fa-user"></i>
+                                    <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group"> <i class="fa fa-envelope-o"></i>
+                                    <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Email address" required>
+                                </div>
+                                <div class="form-group"> <i class="fa fa-comment-o"></i>
+                                    <select name="MMERGE2" class="form-control">
+                                        <option>How did you find us?</option>
+                                        <option>Blog</option>
+                                        <option>Google</option>
+                                        <option>Facebook</option>
+                                        <option>Newsletter</option>
+                                    </select>
+                                </div>
+                                <div class="form-btn">
+                                    <button type="submit" class="btn">GET STARTED</button>
+                                    <p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+
+                    <!--cta signup form end-->
+
+                </div>
+            </div>
+        </div>
+    </section>
   
 </header>
 
