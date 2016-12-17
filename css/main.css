@@ -110,7 +110,7 @@ a:focus { outline: none; }
 img {
   max-width: 100%;
   height: auto;
-  padding-bottom: 8px;
+/*  padding-bottom: 8px;*/
 }
 
 ul,
@@ -632,7 +632,7 @@ strong { font-weight: 700; }
 .trusted-clients,
 .site-footer { background-color: #f9f9f9; }
 
-.section-spacing { padding: 4.5em 0; }
+.section-spacing { padding: 2.5em 0; }
 .section-spacing1 {padding-top: 4.5em; }
 
 .video-intro article h2 {
@@ -788,19 +788,7 @@ blockquote cite i { font-weight: 400; }
   padding-bottom: 0;
 }
 
-.learn-more h2 {
-  font-size: 30px;
-  margin: 48px 0 24px;
-}
 
-.learn-more h2 span {
-  display: block;
-  font-size: 16px;
-  color: #848e92;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-}
 
 .learn-more-link {
   text-transform: uppercase;
@@ -1146,6 +1134,10 @@ blockquote cite i { font-weight: 400; }
   image-rendering: crisp-edges;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
+}
+
+.bg-banner{
+  background-color: #fff!important;
 }
 
 .testimonial::before { background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(125,185,232,0) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#007db9e8', GradientType=1 );
@@ -2139,7 +2131,8 @@ h6,
 
 .benefits-cta .row > [class^="col"]:not(:last-child) > .benefits-cta-list { margin-bottom: 0; }
 
-.learn-more p { font-size: 18px; }
+.learn-more p { font-size: 18px;
+color:#6B6B6B;}
 
 .cta h2 { font-size: 38px; }
 
@@ -2250,7 +2243,7 @@ h6,
 
 .hero-section .cta-signup-form { margin-top: 0; }
 
-.section-spacing { padding: 6em 0; }
+.section-spacing { padding: 3em 0; }
   .section-spacing2 { padding-top: 6em; }
 
 .how-it-works .row:not(:last-child) { margin-bottom: 4.5em; }
@@ -2393,6 +2386,15 @@ h6,
 /*
 custom css*/
 
+.mid-heading-size{
+  font-size:20px;
+  font-weight:500;
+  padding-top:0px;
+  margin-top:0px;
+  margin-bottom:20px;
+  text-transform:uppercase;
+}
+
 .custom-width-cards{
   width: 330px;
   margin: 0 auto;
@@ -2426,15 +2428,15 @@ custom css*/
   background-color:#002E5A;
 }
 .plus-icon-padding{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 61px;
+  padding-bottom: 61px;
 }
 
 .custom-middle-heading{
   font-weight: 600;
   font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 4px;
+  margin-top: 6px;
+
 }
 
 .nav-brnd {
@@ -2530,8 +2532,38 @@ custom css*/
 .banneer-heading{
   font-size: 50px;
   font-weight: 700;
+  line-height: 32px;
   text-transform: uppercase;
-  color: #022E5D;
+  color: #022E5D!important;
+}
+
+.hollow-btn{
+  border: 1px solid transparent;
+  background-color: #F4DA14!important;
+  color: #000000;
+  cursor: pointer;
+  /* margin-top: 20px; */
+  height: 50px;
+  padding: 0!important;
+  width: 155px;
+  border-radius: 20px;
+  background-color: transparent;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  text-align: center;
+  line-height: 40px !important;
+
+}
+
+.hollow-btn:hover{
+  background-color: #F7B46B!important;
+  color:#fff!important;
+  border-color: #ffffff!important;
+}
+
+.banner-text{
+  padding-top: 64px;
+
 }
 
 
@@ -2539,4 +2571,32 @@ custom css*/
 owl carousel*/
 
 
+@media (max-width: 768px) {
+  .banner-text{
+    padding-top:0px;
+
+
+  }
+  .banneer-heading{
+    font-size:34px;
+  }
+
+
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  .banner-text{
+    padding-top:0px;
+
+  }
+
+  .banneer-heading{
+    font-size:34px;
+  }
+}
 
