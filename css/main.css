@@ -249,21 +249,21 @@ strong { font-weight: 700; }
 }
 
 .hero-section .welcome-message .cta-form .form-group {
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 .hero-section .cta-form .form-group i {
   position: absolute;
   left: 16px;
-  bottom: 17px;
+  bottom: 14px;
 }
 
 .hero-section .form-control,
 .hero-section select.form-control {
-  height: 49px;
+  height: 42px;
   padding: 0 1.5em 0 2.5em;
-  line-height: 49px;
+  line-height: 42px;
 }
 
 .hero-section select.form-control {
@@ -2192,7 +2192,7 @@ color:#6B6B6B;}
 @media (min-width: 992px) {
 
 .welcome-message {
-  padding: 13.5em 0;
+  padding: 9em 0;
   text-align: left;
 }
 
@@ -2348,6 +2348,35 @@ color:#6B6B6B;}
 /*
 custom css*/
 
+.padding-right-custom {
+  padding-right: 0px;
+}
+
+.jobseek-employer{
+  padding: 40px;
+ }
+
+.pul-right {
+  text-align: right;
+}
+.pul-left {
+  text-align: left;
+}
+
+
+
+.img-style {
+  width: 58px!important;
+  height: 58px!important;
+}
+.custum-height-img{
+  height:630px;
+
+}
+
+p{
+margin:0 0 5px;}
+
 .pos-relative{
   position:relative;
 }
@@ -2360,11 +2389,14 @@ custom css*/
   font-weight: 600;
   left: -100px;
   position: absolute;
+  text-transform: uppercase;
 }
 .rotate-xs{
   font-size: 30px;
   color: #000;
   font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 }
@@ -2389,6 +2421,10 @@ color:#fff!important}
   max-width:100%;
 }
 
+.custum-height{
+ height:342px;
+
+}
 .custom-width-cards-sec{
   /* width: 250px;*/
   text-align: center;
@@ -2566,8 +2602,36 @@ owl carousel*/
 
 
   }
+
+  .jobseek-employer{
+    padding: 0px;
+    text-align: center;}
+
+
+  .hero-section .cta-signup-form {
+
+    margin-top: 2.5em;
+  }
+  .hero-section .cta-signup-form h2{
+    font-size: 16px;
+  }
+
+  .cta-light .form-control {
+
+    font-size: 14px;
+  }
+
+  .padding-right-custom{
+    padding-right: 15px;
+  }
+
   .banneer-heading{
     font-size:34px;
+  }
+
+  .custum-height-img{
+    height:auto;
+
   }
 
 
@@ -2583,9 +2647,34 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-top:0px;
 
   }
+  .jobseek-employer{
+    padding: 0px;
+    text-align: center;}
+
+  .hero-section .cta-signup-form {
+
+    margin-top: 2.5em;
+  }
+  .hero-section .cta-signup-form h2{
+    font-size: 16px;
+  }
+
+  .cta-light .form-control {
+
+    font-size: 14px;
+  }
+
+  .padding-right-custom {
+    padding-right: 15px;
+  }
 
   .banneer-heading{
     font-size:34px;
+  }
+
+  .custum-height-img{
+    height:auto;
+
   }
 }
 
@@ -2595,7 +2684,35 @@ border-right:1px solid #cdcdcd;}
 
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 480px){
+and (max-device-width: 480px) {
 
-  .navbar-default .navbar-nav > li > a{padding:10px 15px;
+  .custum-height-img{
+    height:auto;
+
+  }
+
+  .jobseek-employer{
+    padding: 0px;
+    text-align: center;}
+
+  .padding-right-custom {
+    padding-right: 15px;
+  }
+
+  .hero-section .cta-signup-form {
+
+    margin-top: 2.5em;
+  }
+  .hero-section .cta-signup-form h2{
+    font-size: 16px;
+  }
+
+  .cta-light .form-control {
+
+    font-size: 14px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 10px 15px;
+  }
 }
