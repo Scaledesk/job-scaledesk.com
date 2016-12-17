@@ -171,15 +171,15 @@ strong { font-weight: 700; }
 
 .btn {
   padding: 1.25em 3em;
-  color: #fff;
-  font-size: 14px;
+  color: #000000;
+  font-size: 14px!important;
   text-align: center;
   text-decoration: none;
-  background-color: #31aff5;
+  background-color: #F4DA14;
   line-height: 1.5;
   border: none;
-  border-radius: 4px;
-  font-weight: 700;
+  border-radius: 0px;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .5px;
   transition: all 0.3s ease-in-out;
@@ -384,7 +384,7 @@ strong { font-weight: 700; }
 .affix .navbar-nav > li > a.btn-nav {
   /*background: #31aff5;*/
   background:  #F4DA14;
-  color: #fff;
+  color: #526066;
 }
 
 .navbar-default.affix .navbar-nav > li > .btn-nav:hover,
@@ -1063,53 +1063,12 @@ blockquote cite i { font-weight: 400; }
   width: 80%;
 }
 
-.plan-type h4 {
-  font-size: 14.5px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 0;
+.plan-type {
+
+padding-top: 20px;
 }
 
-.plan-price h5 {
-  font-size: 54px;
-  color: #31aff5;
-  text-transform: uppercase;
-  margin: 36px 0 24px;
-}
 
-.plan-currency { vertical-align: 30px; }
-
-.plan-currency,
-.plan-duration { font-size: 19px; }
-
-.plan-cta span {
-  font-size: 13px;
-  color: #848e92;
-  display: block;
-}
-
-.plan-cta .btn {
-  width: 100%;
-  margin: 12px 0 24px;
-  padding: 1.25em 0;
-}
-
-.plan-details li {
-  font-size: 14px;
-  margin-bottom: 12px;
-  color: #3a4a51;
-}
-
-.plan-details li:last-child { margin-bottom: 0; }
-
-.plan-details li i {
-  color: #ccd7dc;
-  font-size: 18px;
-  padding-left: .5em;
-}
-
-.plan-details li i:hover { cursor: help; }
 
 .tooltip { font-family: 'Open Sans', sans-serif; }
 
@@ -1670,11 +1629,14 @@ blockquote cite i { font-weight: 400; }
 }*/
 
 .site-footer h3 {
-  font-size: 14px;
-  font-weight: 700;
+  font-size:26px;
+  font-weight:600;
   letter-spacing: .5px;
-  margin-top: 0;
-  text-transform: uppercase;
+  color: #fff;
+  text-transform:uppercase;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #2F5275;
+  margin-bottom: 22px;
 }
 
 .sub-form { margin-bottom: 3em; }
@@ -1998,10 +1960,7 @@ blockquote cite i { font-weight: 400; }
 
 .cta-light.section-spacing { padding-top: 3em; }
 
-.cta-light form {
-  background: #fff;
-  padding: 46px 24px;
-}
+
 
 .cta-light .section-header { margin-bottom: 2.25em; }
 
@@ -2384,7 +2343,8 @@ color:#6B6B6B;}
 
 
 /*
-custom css*/
+custom css*/.weight-text{
+color:#fff!important}
 
 .mid-heading-size{
   font-size:20px;
@@ -2436,6 +2396,7 @@ custom css*/
   font-weight: 600;
   font-size: 20px;
   margin-top: 6px;
+  color: #002F5B;
 
 }
 
