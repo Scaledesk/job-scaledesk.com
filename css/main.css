@@ -95,13 +95,14 @@ h6 {
 }
 
 a {
-  color: #31aff5;
+    color: #2B68B2;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #30a7e9;
+    color: rgba(43, 104, 178, 0.59);
+
   text-decoration: none;
 }
 
@@ -154,7 +155,7 @@ strong { font-weight: 700; }
 
 .hero-section::before { background: rgba(17, 17, 17, 0.27); }
 
-.welcome-message { padding: 1.8em 15px 7.5em; }
+.welcome-message { padding: 5.8em 15px 7.5em; }
 
 .welcome-message h1,
 .welcome-message h2 {
@@ -172,13 +173,14 @@ strong { font-weight: 700; }
 
 .btn {
   padding: 1em 3em;
-  color: #000000;
+  color: #484848;
   font-size: 14px!important;
   text-align: center;
   text-decoration: none;
   background-color: #F4DA14;
+    border:1px solid transparent;
   line-height: 1.5;
-  border: none;
+
   border-radius: 0px;
   font-weight: 500;
   text-transform: uppercase;
@@ -187,8 +189,10 @@ strong { font-weight: 700; }
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: #30a7e9;
+
+    color: #484848;
+    border:1px solid #fff;
+    opacity:0.6;
 }
 
 .btn:active,
@@ -1978,7 +1982,7 @@ padding-top: 20px;
   color: #848e92;
 }
 
-.cta-light .form-control:focus { border-color: #31aff5; }
+.cta-light .form-control:focus {     border-color: #F4DA14; }
  .cta-light input::-webkit-input-placeholder, .cta-light textarea::-webkit-input-placeholder {
  color: #6b777c;
  font-weight: 400;
@@ -2443,16 +2447,16 @@ margin:0 0 5px;}
   transform: rotate(-90deg);
   display: block;
   font-size: 30px;
-  color: #000;
+  color: #484848;
   font-weight: 600;
-  left: -100px;
-  margin-top:50px;
+  left: -118px;
+ top:15%;
   position: absolute;
   text-transform: uppercase;
 }
 .rotate-xs{
   font-size: 30px;
-  color: #000;
+  color: #484848;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
@@ -2500,6 +2504,7 @@ color:#fff!important}
   width: 330px;
   margin: 0 auto;
   border: 1px solid #B8B8B8;
+    margin-bottom: 10px;
 
 }
 
