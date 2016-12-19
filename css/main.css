@@ -192,7 +192,7 @@ strong { font-weight: 700; }
 
     color: #484848;
     border:1px solid #fff;
-    opacity:0.6;
+    opacity:0.8;
 }
 
 .btn:active,
@@ -201,7 +201,7 @@ strong { font-weight: 700; }
 .btn:active:focus {
   color: #fff;
   outline: none;
-  background-color: #30a7e9;
+ opacity: 0.8;
 }
 
 .btn:active { opacity: .8; }
@@ -2647,7 +2647,7 @@ color:#fff!important}
 
 .hollow-btn:hover{
   background-color: #F4DA14!important;
-  opacity: 0.6;
+  opacity: 0.8;
   color:#000!important;
   border-color: #ffffff!important;
 }
@@ -2675,7 +2675,7 @@ color:#fff!important}
 
 .hollow-btn1:hover {
   background-color: #F4DA14!important;
-  opacity: 0.6;
+  opacity: 0.8;
   color: #000!important;
   border-color: #ffffff!important;
 }
