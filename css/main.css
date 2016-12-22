@@ -2554,8 +2554,12 @@ color:#fff!important}
 
 
 }
+
 .freebies-url a{
-  color: #F4DA14!important;
+  color: #848E92!important;
+}
+.freebies-url a:hover{
+  color: #4178BA!important;
 }
 .input-file{
   padding: 7px 1.5em 0 2.5em!important;
