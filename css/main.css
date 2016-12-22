@@ -2544,7 +2544,14 @@ color:#fff!important}
   color: #002F5B;
 
 }
+.freebies-url{
+  text-align: left!important;
 
+
+}
+.freebies-url a{
+  color: #F4DA14!important;
+}
 
 .fa-custom{
 color: #F4DA14;
