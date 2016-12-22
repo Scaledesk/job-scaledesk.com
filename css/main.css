@@ -2552,6 +2552,10 @@ color:#fff!important}
 .freebies-url a{
   color: #F4DA14!important;
 }
+.input-file{
+  padding: 7px 1.5em 0 2.5em!important;
+  line-height: 0px!important;
+}
 
 .fa-custom{
 color: #F4DA14;
