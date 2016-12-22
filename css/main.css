@@ -2425,6 +2425,15 @@ custom css*/
   text-align: left;
 }
 
+#fileToUpload{
+  width:150px;
+  background:#fff;
+}
+
+input[type="file"]{
+  margin-top: 10px
+;
+}
 
 
 .img-style {
@@ -2435,6 +2444,13 @@ custom css*/
   height:630px;
 
 }*/
+
+
+.fa-custom{
+
+color: #F4DA14 !important;
+
+}
 
 p{
 margin:0 0 5px;}
@@ -2527,6 +2543,13 @@ color:#fff!important}
   margin-top: 6px;
   color: #002F5B;
 
+}
+
+
+.fa-custom{
+color: #F4DA14;
+/* font-weight: 800; */
+font-size: 60px!important;
 }
 
 .nav-brnd {

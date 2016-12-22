@@ -188,9 +188,35 @@
         <div class="row">
           <div class="col-md-7 hidden-xs">
             <h1>India's 1st  Infrastructure Manpower Company</h1>
-            <h2>With Jobseeker base of 2lac & counting, we have largest Infrastructure professional network in Country.</h2>
+            <h2>With Jobseeker base of 2,00000 & counting, we have largest Infrastructure professional network in Country.</h2>
 
-            <footer><button class="hollow-btn">Read more</button></footer>
+            <footer><button class="hollow-btn" data-toggle="modal" data-target="#myModal">Read more</button></footer>
+           <!-- modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">About Us</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>We are a team of Infrastructure Recruitment specialists with real time corporate exposure in Power, Water, Environment, Renewable Energy, Equipment Rental and other Infra Sectors.</p>
+                    <p>With Jobseeker base of 2 lac and counting, we have the largest Infrastructure professional network in the Country.</p>
+                    <p>We understand the Organization Structures specific to an Infrastructure Company, Project Work Flow, and Job profiles like BD, Tendering & Bidding, Design, Planning, SCM & Procurement, Construction, Project Management, QS, Erection & Commissioning, O & M, Quality , HSE and Shared Services.</p>
+                    <p>Our Jobseekers represents talent from EPC, Construction, Power, Renewable Energy, Water, Environment, Roads & Highways, Telecom Infra, Cement, Transportation, Equipment Rental, Ports & Real Estate Sectors.</p>
+                    <p>Our Mission is “To Create Platforms, Resources, Tools, Technologies which help tackle the Issues of Talent Acquisition and Training & Development in the Infrastructure Sector, thereby contributing our bit to the growth of the Sector”</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+         <!--   mdal end-->
           </div>
 
           <!--cta signup form-->
@@ -198,7 +224,7 @@
           <div class="col-md-5 col-sm-12">
             <section class="cta-form cta-light">
               <form id="cta-signup-form" class="cta-signup-form">
-                <h2  class="text-center">Send Vacancy Form</h2>
+                <h2  class="text-center">Vacancy Form</h2>
                 <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
                 <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
 
@@ -210,23 +236,22 @@
                 </div>
 
                 <div class="form-group"> <i class="fa fa-map-marker"></i>
-                  <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                  <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
                 </div>
 
                 <div class="row">
                   <div class="col-sm-6 padding-right-custom"> <div class="form-group"> <i class="fa fa-plane"></i>
-                    <select name="MMERGE2" class="form-control">
-                      <option>Designation</option>
-                      <option>Manager</option>
-                      <option>Engineer</option>
-                      <option>Incharge</option>
-                    </select>
+                    <input type="text" value="" name="designation" class="form-control input-lg" id="input-email" placeholder="Designation" required>
                   </div></div>
 
                   <div class="col-sm-6"><div class="form-group"> <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                    <input type="number" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
                   </div></div>
 
+                </div>
+                <div class="form-group">
+                  <i class="fa fa-upload" aria-hidden="true"></i>
+                  <input type="file" name="fileToUpload" id="fileToUpload" class="form-control" style="width: 100%;">
                 </div>
 
 
@@ -318,19 +343,19 @@
     <div class="row container pos-relative">
     <div class="col-md-6 col-md-push-6">
       <aside class="text-center">
-        <figure> <img src="img/new/about-us.jpg" alt="learn more" class="custum-height-img"> </figure>
+        <figure> <img src="img/new/aboutus.jpg" alt="learn more" class="custum-height-img"> </figure>
       </aside>
     </div>
     <div class="col-md-6 col-md-pull-6">
       <span class="visible-xs visible-sm rotate-xs">About us</span>
-      <h3 class="mid-heading-size">Mobile first framework</h3>
+      <h3 class="mid-heading-size">My Infra Job</h3>
 
       <span class="rotate-90 hidden-xs hidden-sm" style="left:-106px;">About us</span>
       <p>We are a team of Infrastructure Recruitment specialists with real time corporate exposure in Power, Water, Environment, Renewable Energy, Equipment Rental and other Infra Sectors. </p>
       <p>We understand the Organization Structures specific to an Infrastructure Company, Project Work Flow, and Job profiles like BD, Tendering & Bidding, Design, Planning, SCM & Procurement, Construction, Project Management, QS, Erection & Commissioning, O & M, Quality , HSE and Shared Services </p>
       <!-- <p>Our Jobseekers represents talent from EPC, Construction, Power, Renewable Energy, Water, Environment, Roads & Highways, Telecom Infra, Cement, Transportation, Equipment Rental, Ports & Real Estate Sectors.</p>
        <p>Our Mission is “To Create Platforms, Resources, Tools, Technologies which help tackle the Issues of Talent Acquisition and Training & Development in the Infrastructure Sector, thereby contributing our bit to the growth of the Sector”</p>
-      <br>--> <footer><button class="hollow-btn">Read more</button></footer>
+      <br>--><br> <footer><button class="hollow-btn" data-toggle="modal" data-target="#myModal">Read more</button></footer>
     </div>
       </div>
   </div>
@@ -428,7 +453,7 @@
                 <div class="bot top">
                 <img src="img/new/process5.png" alt="feature-5">
                 <!--     <h4>Twitter Feed</h4>-->
-                <p> At last, Interview, Offer & Joining Facilitation. </p>
+                <p> Interview, Offer & Joining Facilitation.<br> </p>
               </div></div>
             </div>
 
@@ -480,7 +505,7 @@
               <div class="custom-middle-heading">Walk-in Campaign - Insta Recruit</div>
               <br>
               <p>Fastest Way to Recruit, On-the-spot recruitment</p>
-              <p>Best for New Project Roll Outs, Junior/Middle Corporate positions and Urgency positions.</p>
+              <p>Best for New Project Roll Outs, Junior/Middle Corporate positions and Urgent positions.</p>
               <br>
              <button class="hollow-btn1">Send Vacancy</button>
               <button class="hollow-btn1">Request Callback</button>
@@ -492,12 +517,14 @@
           <li class="col-sm-6">
             <div class="custom-width-cards-sec">
 
-                <img src="img/new/services.png" alt="feature-1" class="img-style">
+                <img src="img/new/services.png" alt="feature-1" style="    width: 62px;
+    height: 64px;">
 
-              <div class="custom-middle-heading">Executive Search-Insta Search</div>
+              <div class="custom-middle-heading">Executive Search</div>
+              <br>
               <br>
               <p>CXO level down to Project Engineer/Manager Level</p>
-              <p>Engineering, Corporate and Shared Services. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>Engineering, Corporate and Shared Services.</p><br>
               <br>
               <button class="hollow-btn1">Send Details</button>
               <button class="hollow-btn1">Request Callback</button>
@@ -640,7 +667,7 @@
                 <span class="rotate-90 hidden-xs hidden-sm" style="left:-104px;">Features</span>
 
               <div class="custom-width-cards-sec custum-height"><br>
-                <img src="img/new/Fatures.png" alt="feature-2" height="60" width="60" ><br><br>
+                <i class="fa fa-custom fa-money" aria-hidden="true" class="fa-custom"></i><br><br>
                 <div class="custom-middle-heading">Economical</div>
 
 
@@ -653,7 +680,7 @@
             <!--features 2-->
             <div class="col-sm-4">
               <div class="custom-width-cards-sec custum-height"><br>
-                <img src="img/new/Fatures2.png" alt="feature-2" height="60" width="60" ><br><br>
+                <i class="fa fa-custom fa-thumbs-o-up" aria-hidden="true" class="fa-custom"></i><br><br>
                 <div class="custom-middle-heading">“Quality” not “quantity”</div>
 
                 <p class="custom-padding">Highest Search Quality Ensured through Competency Mapping, Skill-Culture Fit, Equity Match, Growth Potential, Aspiration Match, and Industry Referrals with Reference Checks</p>
@@ -664,7 +691,7 @@
             <!--features 3-->
             <div class="col-sm-4">
               <div class="custom-width-cards-sec custum-height"><br>
-                <img src="img/new/features.png" alt="feature-3" height="60" width="60" ><br> <br>
+                <i class="fa fa-custom fa-fighter-jet" aria-hidden="true" class="fa-custom"></i><br> <br>
                 <div class="custom-middle-heading">Fast</div>
 
                 <p>7 Days Service delivery Commitment.</p>
