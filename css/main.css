@@ -2566,6 +2566,33 @@ color:#fff!important}
   line-height: 0px!important;
 }
 
+.quotes-styling-lft{
+  height: 15px;
+  padding-right: 2px;
+  /* padding-bottom: 32px; */
+  margin-top: -25px;
+}
+.quotes-styling-rgt{
+  height: 15px;
+  padding-left: 2px;
+  /* padding-bottom: 32px; */
+  margin-bottom: -15px;
+}
+
+.transparent-border{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.32);
+  line-height: 25px;
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+  box-sizing: content-box;
+}
+
 .fa-custom{
 color: #F4DA14;
 /* font-weight: 800; */
