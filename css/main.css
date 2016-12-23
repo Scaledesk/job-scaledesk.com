@@ -2566,18 +2566,18 @@ color:#fff!important}
   line-height: 0px!important;
 }
 
-.quotes-styling-lft{
+/*.quotes-styling-lft{
   height: 15px;
   padding-right: 2px;
-  /* padding-bottom: 32px; */
+  !* padding-bottom: 32px; *!
   margin-top: -25px;
 }
 .quotes-styling-rgt{
   height: 15px;
   padding-left: 2px;
-  /* padding-bottom: 32px; */
+  !* padding-bottom: 32px; *!
   margin-bottom: -15px;
-}
+}*/
 
 .transparent-border{
   width: 30px;
