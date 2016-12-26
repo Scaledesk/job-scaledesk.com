@@ -129,7 +129,7 @@ strong { font-weight: 700; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/new/banner.jpg)center center no-repeat;
+  background: url(../img/Engineer.jpg)center center no-repeat;
   background-size: cover;
   position: relative;
   height:100vh;
@@ -2147,7 +2147,7 @@ color:#6B6B6B;}
 
 .welcome-message h2 { font-size: 22px; }
 
-.hero-section .cta-signup-form { margin-top: 0; }
+.hero-section .cta-signup-form {     margin-top: -20px; }
 
 .section-spacing { padding: 3em 0; }
   .section-spacing1 { padding-top: 6em; }
