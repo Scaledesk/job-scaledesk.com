@@ -1165,124 +1165,6 @@ padding-top: 20px;
   font-size: 19px;
 }
 
-/* ==========================================================================
-   16.cta signup form
-   ========================================================================== */
-   
-.cta-dark { background: #212a3e; }
-
-.cta-dark .section-header h2 { color: #fff; }
-
-.cta-dark .section-header h3 { color: #31aff5; }
-
-.cta-form .form-group { margin-bottom: 24px; }
-
-.cta-signup-form .form-group:nth-of-type(3) { margin-bottom: 12px; }
-
-.cta-form .form-control,
-.sub-form .form-control {
-  border-radius: 4px;
-  font-size: 16px;
-  box-shadow: none;
-  transition: all .2s ease-out;
-}
-
-.cta-form .form-control:focus { background-color: #fff; }
-
-.cta-dark .form-control {
-  background-color: #363e51;
-  border-color: #363e51;
-  color: #fff;
-}
-
-.cta-dark .form-control:focus { color: #6b777c; }
- .cta-dark input::-webkit-input-placeholder {
- color: #fff;
- font-weight: 400;
-}
- .cta-dark input:-moz-placeholder {
- color: #fff;
- font-weight: 400;
-}
- .cta-dark input::-moz-placeholder {
- color: #fff;
- font-weight: 400;
-}
- .cta-dark input:-ms-input-placeholder {
- color: #fff;
- font-weight: 400;
-}
- .cta-dark input:focus::-webkit-input-placeholder {
- color: #6b777c;
-}
- .cta-dark input:focus:-moz-placeholder {
- color: #6b777c;
-}
- .cta-dark input:focus::-moz-placeholder {
- color: #6b777c;
-}
- .cta-dark input:focus:-ms-input-placeholder {
- color: #6b777c;
-}
-
-.cta-form .form-group label {
-  font-weight: 400;
-  margin: 12px 0 0;
-  font-size: 14px;
-}
-
-.cta-dark .form-group label,
-.cta-dark .checkbox label,
-.cta-form .form-terms,
-.cta-dark .form-option { color: #696c74; }
-
-.cta-form .required {
-  color: #ee5555;
-  padding-right: 4px;
-  vertical-align: text-bottom;
-}
-
-.cta-form .checkbox { margin: 0 0 24px; }
-
-.form-btn .btn { width: 100%; }
-
-.form-terms {
-  margin: 12px 0 0;
-  font-size: 13px;
-}
-
-.form-option {
-  margin: 36px 0;
-  font-size: 24px;
-}
-
-.form-signup-google .btn,
-.form-signup-facebook .btn { width: 100%; }
-
-.form-signup-google .btn i,
-.form-signup-facebook .btn i {
-  padding-right: 10px;
-  font-size: 24px;
-  vertical-align: middle;
-}
-
-.form-signup-google .btn { background-color: #dc4e41; }
-
-.form-signup-google .btn:hover,
-.form-signup-google .btn:active,
-.form-signup-google .btn:focus,
-.form-signup-google .btn:active:hover,
-.form-signup-google .btn:active:focus { background: #ce4a3d; }
-
-.form-signup-facebook .btn { background-color: #3b5998; }
-
-.form-signup-facebook .btn:hover,
-.form-signup-facebook .btn:active,
-.form-signup-facebook .btn:focus,
-.form-signup-facebook .btn:active:hover,
-.form-signup-facebook .btn:active:focus { background: #314d88; }
-
-.form-signup-google { margin-bottom: 24px; }
 
 /* ==========================================================================
     17.clients
@@ -2674,7 +2556,7 @@ font-size: 60px!important;
   background-color: #F5D914;
 }
 .custom-padding{
-  padding: 12px 15px 30px 15px;
+  padding: 12px 13px 30px 13px;
 }
 
 .banneer-heading{
