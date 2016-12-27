@@ -324,6 +324,7 @@ strong { font-weight: 700; }
 .navbar-default {
   background-color: transparent;
   /* border: none; */
+  border-left-color: transparent;
   border-radius: 0;
   margin-bottom: 0;
   padding: 0.3em 0;
