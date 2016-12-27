@@ -124,6 +124,46 @@ li {
 b,
 strong { font-weight: 700; }
 
+
+/*footer banner*/
+
+.tz-free-shipping{
+  padding: 57px 0 73px;
+}
+
+.f-size-15{
+  font-size: 15px!important;
+}
+
+.f-size-20{
+  font-size: 20px!important;
+}
+
+.icon-shopping-cart {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #fff;
+  display: block;
+  float: left;
+  line-height: 70px;
+  text-align: center;
+}
+
+.icon-shopping-cart i {
+  font-size: 26px;
+  line-height: 70px;
+}
+
+.tz-background3 .learn-more {
+  color: #fff !important;
+
+}
+
 /* ==========================================================================
    2.Hero section
    ========================================================================== */ 
@@ -864,6 +904,16 @@ blockquote cite i { font-weight: 400; }
   font-size: 30px;
 }
 
+.f-w-mainheading{
+  font-color:#fff!important;
+
+}
+
+
+.f-w-subheading{
+  color: rgba(255, 255, 255, 0.59)!important;
+
+}
 .new-feature h3 {
   font-size: 15px;
   text-transform: uppercase;
