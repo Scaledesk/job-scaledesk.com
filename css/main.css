@@ -279,38 +279,38 @@ strong { font-weight: 700; }
   display: inline-block;
 }
 
-.hero-section .cta-signup-form {
+.cta-signup-form {
   background: rgba(255, 255, 255, 0.33);
   padding: 1em 1.5em;
   margin-top: 3em;
 }
 
-.hero-section .cta-signup-form h2 {
+.cta-signup-form h2 {
   margin: 0 0 24px 0;
   font-size: 22px;
   color: #091d25;
   font-weight: 600;
 }
 
-.hero-section .welcome-message .cta-form .form-group {
+.welcome-message .cta-form .form-group {
   margin-bottom: 15px;
   position: relative;
 }
 
-.hero-section .cta-form .form-group i {
+.cta-form .form-group i {
   position: absolute;
   left: 16px;
   bottom: 14px;
 }
 
-.hero-section .form-control,
-.hero-section select.form-control {
+.form-control,
+ select.form-control {
   height: 42px;
   padding: 0 1.5em 0 2.5em;
   line-height: 42px;
 }
 
-.hero-section select.form-control {
+ select.form-control {
   border-color: #dadddf;
   color: #848e92;
   -moz-appearance: none;
@@ -1244,6 +1244,12 @@ padding-top: 20px;
   height: 120px;
 }
 
+.cli-logo{
+  width: 40px;
+  height: 40px;
+
+}
+
 /* ==========================================================================
   18.Product statistics
    ========================================================================== */
@@ -1981,7 +1987,7 @@ h6,
 
 .welcome-message h1 { margin-bottom: 36px; }
 
-.hero-section .cta-signup-form { margin-top: 4.5em; }
+.cta-signup-form { margin-top: 4.5em; }
 
 .mobile-nav-overlay nav { font-size: 40px; }
 
@@ -2198,7 +2204,7 @@ color:#6B6B6B;}
 
 .welcome-message h2 { font-size: 22px; }
 
-.hero-section .cta-signup-form {     margin-top: -20px; }
+.cta-signup-form {     margin-top: -20px; }
 
 .section-spacing { padding: 3em 0; }
   .section-spacing1 { padding-top: 6em; }
@@ -2693,11 +2699,11 @@ owl carousel*/
   margin-bottom: 10px;}
 
 
-  .hero-section .cta-signup-form {
+.cta-signup-form {
 
     margin-top: 2.5em;
   }
-  .hero-section .cta-signup-form h2{
+.cta-signup-form h2{
     font-size: 16px;
   }
 
@@ -2737,11 +2743,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         text-align: center;
         margin-bottom: 10px;}
 
-  .hero-section .cta-signup-form {
+.cta-signup-form {
 
     margin-top: 2.5em;
   }
-  .hero-section .cta-signup-form h2{
+.cta-signup-form h2{
     font-size: 16px;
   }
 
@@ -2786,11 +2792,11 @@ and (max-device-width: 480px) {
     padding-right: 15px;
   }
 
-  .hero-section .cta-signup-form {
+.cta-signup-form {
 
     margin-top: 2.5em;
   }
-  .hero-section .cta-signup-form h2{
+ .cta-signup-form h2{
     font-size: 16px;
   }
 
