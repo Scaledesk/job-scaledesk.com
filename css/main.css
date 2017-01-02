@@ -2686,6 +2686,11 @@ font-size: 60px!important;
   border-color: #ffffff!important;
 }
 
+.hollow-btn:focus{
+border: none;
+  outline:none;
+}
+
 
 
 .hollow-btn1 {
@@ -2712,6 +2717,11 @@ font-size: 60px!important;
   opacity: 0.8;
   color: #000!important;
   border-color: #ffffff!important;
+}
+
+.hollow-btn1:focus{
+  border: none;
+  outline:none;
 }
 .banner-text{
   padding-top: 64px;
