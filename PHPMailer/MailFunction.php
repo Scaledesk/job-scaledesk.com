@@ -13,7 +13,7 @@ $designation=$_POST['designation'];
 /*$fileToUpload=$_POST['fileToUpload'];*/
  
 $fileToUpload=$_FILES['fileToUpload'];
- $emailadmin="nkscoder@gmail.com";
+ $emailadmin="hello@manfra.in";
 
 
 
@@ -30,7 +30,7 @@ $message ='<html>
 
 if($hidden=$_POST['hidden']){
 
-  $emailadmin="nitesh@scaledesk.com";
+  $emailadmin="rsume@manfra.in";
 /* name address phone*/
 $message ='<html>
 <body>
