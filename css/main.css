@@ -2732,6 +2732,47 @@ border: none;
   background-color: #f5f5f5;
 }
 
+.tagline {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.thank-banner{
+background: url('../img/Engineer.jpg') center no-repeat;
+width: 100%;
+background-size: cover;
+height: 100vh;
+display: -webkit-flex;
+-webkit-justify-content: center;
+-moz-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+-moz-align-items: center;
+align-items: center;
+}
+
+.thank-btn-header {
+  border: 2px solid #F4DA14;
+  color:#F4DA14;
+  cursor: pointer;
+  height: 35px;
+  /* width: 120px; */
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.v-large-title {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.35;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.padding-0-r{
+  padding-right:0px!important;
+}
 
 /*
 owl carousel*/
