@@ -227,29 +227,29 @@
 
           <div class="col-md-5 col-sm-12">
             <section class="cta-form cta-light">
-              <form id="cta-signup-form" class="cta-signup-form">
+              <form action="PHPMailer/MailFunction.php" method="POST" enctype="multipart/form-data" class="cta-signup-form">
                 <h2  class="text-center">Vacancy Form</h2>
                 <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
                 <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
 
                 <div class="form-group"> <i class="fa fa-user"></i>
-                  <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                  <input type="text" value="" name="name" class="form-control input-lg" id="name" placeholder="Your name" required>
                 </div>
                 <div class="form-group"> <i class="fa fa-building"></i>
-                  <input type="text" value="" name="company" class="form-control input-lg" id="input-email" placeholder="Company" required>
+                  <input type="text" value="" name="company" class="form-control input-lg" id="company" placeholder="Company" required>
                 </div>
 
                 <div class="form-group"> <i class="fa fa-map-marker"></i>
-                  <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                  <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                 </div>
 
                 <div class="row">
                   <div class="col-sm-6 padding-right-custom"> <div class="form-group"> <i class="fa fa-plane"></i>
-                    <input type="text" value="" name="designation" class="form-control input-lg" id="input-email" placeholder="Designation" required>
+                    <input type="text" value="" name="designation" class="form-control input-lg" id="designation" placeholder="Designation" required>
                   </div></div>
 
                   <div class="col-sm-6"><div class="form-group"> <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <input type="number" value="" name="number" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                    <input type="number" value="" name="phone" class="form-control input-lg" id="phone" placeholder="Mobile" required>
                   </div></div>
 
                 </div>
@@ -264,6 +264,7 @@
                 <div class="form-btn text-center">
                   <button type="submit" class="btnnew">GET STARTED</button>
                </div></div>
+                </form>
                     <div class="col-sm-6">
                     <div class="form-btn text-center">
                       <button  class="btnnew" data-toggle="modal" data-target="#myModal2nd">Request a Callback</button>
@@ -271,7 +272,7 @@
                   </div></div>
                 <p class="form-terms hidden-xs">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> & <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>
 
-              </form>
+              
             </section>
           </div>
 
@@ -488,29 +489,29 @@
 
                   <div class="col-md-12 col-sm-12">
                     <section class="cta-form cta-light">
-                      <form id="cta-signup-form2" class="cta-signup-form">
+                      <form  action="PHPMailer/MailFunction.php"  method="POST" class="cta-signup-form" enctype="multipart/form-data" >
                         <h2  class="text-center">Vacancy Form</h2>
                         <div id="mc-error-cta">Please enter a value</div>
                         <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
                         <div class="form-group">
-                          <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                          <input type="text" value="" name="name" class="form-control input-lg" id="name" placeholder="Your name" required>
                         </div>
                         <div class="form-group">
-                          <input type="text" value="" name="company" class="form-control input-lg" id="input-email" placeholder="Company" required>
+                          <input type="text" value="" name="company" class="form-control input-lg" id="company" placeholder="Company" required>
                         </div>
 
                         <div class="form-group">
-                          <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                          <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                         </div>
 
                         <div class="row">
                           <div class="col-sm-6 padding-right-custom"> <div class="form-group">
-                            <input type="text" value="" name="designation" class="form-control input-lg" id="input-email" placeholder="Designation" required>
+                            <input type="text" value="" name="designation" class="form-control input-lg" id="designation" placeholder="Designation" required>
                           </div></div>
 
                           <div class="col-sm-6"><div class="form-group">
-                            <input type="number" value="" name="number" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                            <input type="number" value="" name="phone" class="form-control input-lg" id="phone" placeholder="Mobile" required>
                           </div></div>
 
                         </div>
@@ -575,29 +576,29 @@
 
                     <div class="col-md-12 col-sm-12">
                       <section class="cta-form cta-light">
-                        <form id="cta-signup-form4" class="cta-signup-form">
+                        <form action="PHPMailer/MailFunction.php" class="cta-signup-form">
                           <h2  class="text-center">Send Details</h2>
                           <div id="mc-error-cta">Please enter a value</div>
                           <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
                           <div class="form-group">
-                            <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                            <input type="text" value="" name="name" class="form-control input-lg" id="name" placeholder="Your name" required>
                           </div>
                           <div class="form-group">
-                            <input type="text" value="" name="company" class="form-control input-lg" id="input-email" placeholder="Company" required>
+                            <input type="text" value="" name="company" class="form-control input-lg" id="company" placeholder="Company" required>
                           </div>
 
                           <div class="form-group">
-                            <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                            <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                           </div>
 
                           <div class="row">
                             <div class="col-sm-6 padding-right-custom"> <div class="form-group">
-                              <input type="text" value="" name="designation" class="form-control input-lg" id="input-email" placeholder="Designation" required>
+                              <input type="text" value="" name="designation" class="form-control input-lg" id="designation" placeholder="Designation" required>
                             </div></div>
 
                             <div class="col-sm-6"><div class="form-group">
-                              <input type="number" value="" name="number" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                              <input type="number" value="" name="phone" class="form-control input-lg" id="phone" placeholder="Mobile" required>
                             </div></div>
 
                           </div>
@@ -640,29 +641,29 @@
 
                     <div class="col-md-12 col-sm-12">
                       <section class="cta-form cta-light">
-                        <form id="cta-signup-form5" class="cta-signup-form">
+                        <form action="PHPMailer/MailFunction.php" class="cta-signup-form" method="POST">
                           <h2  class="text-center">Request a Callback</h2>
                           <div id="mc-error-cta">Please enter a value</div>
                           <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
                           <div class="form-group">
-                            <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                            <input type="text" value="" name="name" class="form-control input-lg" id="name" placeholder="Your name" required>
                           </div>
                           <div class="form-group">
-                            <input type="text" value="" name="company" class="form-control input-lg" id="input-email" placeholder="Company" required>
+                            <input type="text" value="" name="company" class="form-control input-lg" id="company" placeholder="Company" required>
                           </div>
 
                           <div class="form-group">
-                            <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                            <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                           </div>
 
                           <div class="row">
                             <div class="col-sm-6 padding-right-custom"> <div class="form-group">
-                              <input type="text" value="" name="designation" class="form-control input-lg" id="input-email" placeholder="Designation" required>
+                              <input type="text" value="" name="designation" class="form-control input-lg" id="designation" placeholder="Designation" required>
                             </div></div>
 
                             <div class="col-sm-6"><div class="form-group">
-                              <input type="number" value="" name="number" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                              <input type="number" value="" name="phone" class="form-control input-lg" id="phone" placeholder="Mobile" required>
                             </div></div>
 
                           </div>
@@ -1306,30 +1307,30 @@
 
           <div class="col-md-12 col-sm-12">
             <section class="cta-form cta-light">
-              <form id="cta-signup-form6" class="cta-signup-form">
+              <form  action="PHPMailer/MailFunction.php" class="cta-signup-form" method="POST" enctype="multipart/form-data">
                 <h2  class="text-center">Upload a File</h2>
                 <div id="mc-error-cta">Please enter a value</div>
                 <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
                 <div class="form-group">
-                  <input type="text" value="" name="FNAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                  <input type="text" value="" name="name" class="form-control input-lg" id="name" placeholder="Your name" required>
                 </div>
 
 
                 <div class="form-group">
-                  <input type="text" value="" name="address" class="form-control input-lg" id="input-email" placeholder="Address" required>
+                  <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                 </div>
 
            <div class="form-group">
-                    <input type="number" value="" name="Number" class="form-control input-lg" id="input-email" placeholder="Mobile" required>
+                    <input type="number" value="" name="phone" class="form-control input-lg" id="phone" placeholder="Mobile" required>
                   </div>
 
 
                 <div class="form-group">
-
+                   <input type="hidden" name="hidden" value="hidden">
                   <input type="file" name="fileToUpload" id="fileToUpload" class="form-control input-file" style="width: 100%;">
                 </div>
-
+               
 
 
                 <div class="form-btn text-center">
