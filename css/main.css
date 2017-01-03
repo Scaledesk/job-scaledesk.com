@@ -2752,8 +2752,8 @@ align-items: center;
 }
 
 .thank-btn-header {
-  border: 2px solid #283891;
-  color:#283891;
+  border: 2px solid rgba(40, 54, 144, 0.8);
+  color:rgba(40, 54, 144, 0.8);
   cursor: pointer;
   height: 35px;
   /* width: 120px; */
