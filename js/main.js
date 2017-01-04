@@ -13,7 +13,7 @@ $(function() {
         url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=df84217cb4'
             // http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
     });
-/*
+
     function callbackFunctionCta(resp) {
         if (resp.result === 'success') {
             $('#mc-error-cta').slideUp();
@@ -24,7 +24,7 @@ $(function() {
         }
     }
 
-*/
+
     /* ==========================================================================
        Sub Form   
        ========================================================================== */
