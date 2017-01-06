@@ -213,7 +213,7 @@
           <div class="col-md-5 col-sm-12">
             <section class="cta-form cta-light">
               <form action="PHPMailer/MailFunction.php" method="POST" enctype="multipart/form-data" class="cta-signup-form">
-                <h2  class="text-center">Vacancy Form</h2>
+                <h2  class="text-center">Vacancy Form (For Employers)</h2>
                 <div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>
                 <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
 
@@ -475,8 +475,8 @@
               <p>CXO level down to Project Engineer/Manager Level</p>
               <p>Engineering, Corporate and Shared Services.</p><br>
               <div style="margin-bottom: 15px;"></div>
-              <button class="hollow-btn1">Send Details</button>
-              <button class="hollow-btn1">Request Callback</button>
+              <button class="hollow-btn1" data-toggle="modal" data-target="#myModal1st">Send Details</button>
+              <button class="hollow-btn1" data-toggle="modal" data-target="#myModal2nd">Request Callback</button>
               <button class="hollow-btn1">Chat</button>
 
 
@@ -733,7 +733,7 @@
           <!--features 3-->
           <div class="col-sm-4">
             <div class="custom-width-blogs">
-              <img src="img/new/freebies01.jpg" alt="feature-2"  style="width: 328px;height:252px;">
+              <img src="img/new/freebies04.jpg" alt="feature-2"  style="width: 328px;height:252px;">
               <!--    <h4>HTML 5 & CSS3</h4>-->
               <div class="plan-type">
                 <div class="custom-middle-heading">HR Letters</div>
@@ -1086,12 +1086,12 @@
             <h3>Quick Links</h3>
           </li>
 
-          <li><a href="#aboutus">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#features">Features</a></li>
-          <li class="hidden-xs"><a href="#process">process</a></li>
+          <li><a href="#aboutus" class="footer-link">About Us</a></li>
+          <li><a href="#services" class="footer-link">Services</a></li>
+          <li><a href="#features" class="footer-link">Features</a></li>
+          <li class="hidden-xs" class="footer-link"><a href="#process">Process</a></li>
 
-          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#testimonial" class="footer-link">Testimonial</a></li>
 
         </ul>
       </div>
@@ -1168,7 +1168,7 @@
           <div class="col-md-12 col-sm-12">
             <section class="cta-form cta-light">
               <form  action="PHPMailer/MailFunction.php"  method="POST" class="cta-signup-form" enctype="multipart/form-data" >
-                <h2  class="text-center">Vacancy Form</h2>
+                <h2  class="text-center">Vacancy Form (For Employers)</h2>
                 <div id="mc-error-cta">Please enter a value</div>
                 <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
@@ -1236,7 +1236,7 @@
           <div class="col-md-12 col-sm-12">
             <section class="cta-form cta-light">
               <form action="PHPMailer/MailFunction.php" class="cta-signup-form">
-                <h2  class="text-center">Send Details</h2>
+                <h2  class="text-center">Send Details (For Employers)</h2>
                 <div id="mc-error-cta">Please enter a value</div>
                 <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
@@ -1302,7 +1302,7 @@
           <div class="col-md-12 col-sm-12">
             <section class="cta-form cta-light">
               <form action="PHPMailer/MailFunction.php" class="cta-signup-form" method="POST">
-                <h2  class="text-center">Request a Callback</h2>
+                <h2  class="text-center">Request a Callback (For Employers)</h2>
                 <div id="mc-error-cta">Please enter a value</div>
                 <div id="mc-success-cta"> Awesome! We have sent you a confirmation email</div>
 
@@ -1311,10 +1311,6 @@
                 </div>
                 <div class="form-group">
                   <input type="text" value="" name="company" class="form-control input-lg" id="company" placeholder="Company" required>
-                </div>
-
-                <div class="form-group">
-                  <input type="text" value="" name="address" class="form-control input-lg" id="address" placeholder="Address" required>
                 </div>
 
                 <div class="row">

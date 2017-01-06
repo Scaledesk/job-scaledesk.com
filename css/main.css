@@ -717,6 +717,10 @@ strong { font-weight: 700; }
 .trusted-clients,
 .site-footer { background-color: #f9f9f9; }
 
+.footer-link{
+  color:#ffffff;
+}
+
 .section-spacing { padding: 2.5em 0; }
 .section-spacing1 {padding-top: 4.5em; }
 .section-spacing2 {padding-top: 0em; }
