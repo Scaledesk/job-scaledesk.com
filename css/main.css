@@ -266,7 +266,7 @@ strong { font-weight: 700; }
   background-color: #F4DA14;
   border:1px solid transparent;
   line-height: 1.5;
-  margin-top: 3%;
+  margin-top:4%;
 
   border-radius: 0px;
   font-weight: 500;
@@ -336,7 +336,7 @@ strong { font-weight: 700; }
 .cta-form .form-group i {
   position: absolute;
   left: 16px;
-  bottom: 14px;
+  bottom: 12px;
 }
 
 .form-control,
@@ -1939,11 +1939,6 @@ custom css*/
   background:#fff;
 }
 
-input[type="file"]{
-  margin-top: 10px
-;
-}
-
 
 
 
@@ -2421,7 +2416,7 @@ and (max-device-width: 480px) {
     padding-right: 15px;
   }
 
-  .cta-signup-form {margin-top: -12px;
+  .cta-signup-form {margin-top: -10px;
     background: rgba(255, 255, 255, 0.33);
     padding: 12px 14px;}
 
@@ -2469,7 +2464,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     line-height: 37px;
   }
 
-  .cta-signup-form {margin-top: -12px;
+  .cta-signup-form {margin-top: -10px;
     background: rgba(255, 255, 255, 0.33);
     padding: 12px 14px;}
 
