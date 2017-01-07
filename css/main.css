@@ -2797,7 +2797,7 @@ owl carousel*/
 
 .cta-signup-form {
 
-    margin-top: 2.5em;
+    margin-top: 0.3em;
   }
 .cta-signup-form h2{
     font-size: 16px;
@@ -2841,7 +2841,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 .cta-signup-form {
 
-    margin-top: 2.5em;
+  margin-top: 0.3em;
   }
 .cta-signup-form h2{
     font-size: 16px;
@@ -2889,8 +2889,7 @@ and (max-device-width: 480px) {
   }
 
 .cta-signup-form {
-
-    margin-top: 2.5em;
+  margin-top: 0.3em;
   }
  .cta-signup-form h2{
     font-size: 16px;
