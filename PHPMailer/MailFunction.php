@@ -30,7 +30,7 @@ $message ='<html>
 
 if($hidden=$_POST['hidden']){
 
-  $emailadmin="rsume@manfra.in";
+  $emailadmin="resume@manfra.in";
 /* name address phone*/
 $message ='<html>
 <body>
