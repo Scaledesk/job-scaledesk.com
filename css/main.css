@@ -54,7 +54,7 @@
 /* ==========================================================================
    1.General
    ========================================================================== */
-   
+ html{overflow-x: hidden;}
 html.sl-page,
 body.sl-page { height: 100%; }
 
@@ -167,7 +167,7 @@ strong { font-weight: 700; }
   background: url(../img/Engineer.jpg)center center no-repeat;
   background-size: cover;
   position: relative;
-  height:100vh;
+  height:100%;
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: crisp-edges;
@@ -2420,7 +2420,7 @@ and (max-device-width: 480px) {
     padding-right: 15px;
   }
 
-  .cta-signup-form {margin-top: -20px;
+  .cta-signup-form {margin-top: -12px;
     background: rgba(255, 255, 255, 0.33);
     padding: 12px 14px;}
 
@@ -2468,7 +2468,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     line-height: 37px;
   }
 
-  .cta-signup-form {margin-top: -20px;
+  .cta-signup-form {margin-top: -12px;
     background: rgba(255, 255, 255, 0.33);
     padding: 12px 14px;}
 
