@@ -2587,7 +2587,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   .hero-section .cta-signup-form { margin-top: 0; }
 
-  .section-spacing { padding: 6em 0; }
+  .section-spacing { padding: 2em 0; }
 
   .how-it-works .row:not(:last-child) { margin-bottom: 4.5em; }
 
