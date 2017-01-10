@@ -654,7 +654,7 @@ strong { font-weight: 700; }
 .fea div[class="col-sm-4"] img
 {
   width: 130px;
-  height: 110px;
+  height: 130px;
   padding-bottom:8px;
   padding-top: 8px;
 }
@@ -2660,7 +2660,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   .testimonial.section-spacing { padding: 9.75em 0; }
 
-  .faq-list { margin: 1.5em 0 0; }
+  /*.faq-list { margin: 1.5em 0 0; }*/
 
   .form-signup-google .btn,
   .form-signup-facebook .btn { width: 88%; }
