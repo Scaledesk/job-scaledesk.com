@@ -14,12 +14,12 @@ $designation=$_POST['designation'];
  
 $fileToUpload=$_FILES['fileToUpload'];
  $emailadmin="hello@manfra.in";
-
+//$emailadmin="nkscoder@gmail.com";
 
 
 /*$emailsubadmin="lakhani@scaledesk.com";*/
 /*$namefrom=$_POST['pagefrom'];*/
-$subject = "Contact Us";
+$subject = "Employer Job Mail - Manfra.in";
 /*$Usersubject="Thank You for Job Scaledesk";
 $messageUsers=file_get_contents('template.html')*/;
 $message ='<html>
@@ -30,7 +30,11 @@ $message ='<html>
 
 if($hidden=$_POST['hidden']){
 
-  $emailadmin="resume@manfra.in";
+ $emailadmin="resume@manfra.in";
+ $subject = "Jobseeker Resume mail - Manfra.in";
+
+	//$emailadmin="nitesh@scaledesk.com";
+
 /* name address phone*/
 $message ='<html>
 <body>
