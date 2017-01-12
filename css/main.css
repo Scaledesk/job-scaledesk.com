@@ -167,7 +167,7 @@ strong { font-weight: 700; }
   background: url(../img/Engineer.jpg)center center no-repeat;
   background-size: cover;
   position: relative;
-  height: 88vh;
+ /* height: 88vh;*/
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: crisp-edges;
@@ -197,7 +197,7 @@ strong { font-weight: 700; }
 
 .hero-section::before { background: rgba(17, 17, 17, 0.27); }
 
-.welcome-message { padding: 5.8em 15px 7.5em; }
+.welcome-message { padding: 5.8em 15px 2.5em; }
 
 .welcome-message h1,
 .welcome-message h2 {
