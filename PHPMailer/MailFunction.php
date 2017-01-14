@@ -14,6 +14,7 @@ $designation=$_POST['designation'];
  
 $fileToUpload=$_FILES['fileToUpload'];
  $emailadmin="hello@manfra.in";
+ $emailsubadmin="balrajverma@hotmail.com";
 //$emailadmin="nkscoder@gmail.com";
 
 
@@ -74,7 +75,7 @@ $mail1->AddAttachment($_FILES['fileToUpload']['tmp_name'], $_FILES['fileToUpload
 
 
 $mail1->addAddress($emailadmin);     // Add a recipient
- 
+$mail1->addAddress($emailsubadmin); 
 /*$mail->Subject = $Usersubject;
 $mail->Body    = $messageUsers;*/
 
