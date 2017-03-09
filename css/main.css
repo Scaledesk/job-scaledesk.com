@@ -653,7 +653,7 @@ strong { font-weight: 700; }
 .fea .col-md-4 { overflow-y: hidden; }
 .fea div[class="col-sm-4"] img
 {
-  width: 130px;
+ /* width: 130px;*/
   height: 130px;
   padding-bottom:8px;
   padding-top: 8px;
